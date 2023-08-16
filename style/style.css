@@ -110,6 +110,9 @@ body {
     font-size: 20px;
     cursor: pointer;
     margin-top: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .sessao-01 .container-right img{
