@@ -187,6 +187,8 @@ body {
 .sessao-02 .container-treinos p{
     color: azure;
     font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 0;
 }
 
 .sessao-02 .container-treinos .opcoes {
@@ -205,24 +207,19 @@ body {
     font-weight: bold;
     border-radius: 15px;
     color: rgb(37, 37, 37);
+    width: 60%;
 }
 .sessao-02 .container-treinos .opcoes #adicionar{
-    background-color: green;
-}
-.sessao-02 .container-treinos .opcoes #alterar{
-    background-color: yellow;
-    
-}
-.sessao-02 .container-treinos .opcoes #remover{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(5, 238, 5);
 }
 
 
 @media (max-width: 785px) {
     .cabecalho {
-        padding-top: 50px;
+        padding-top: 30px;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding-inline: 10px;
     }
     .cabecalho .container-center {
         display: none;
@@ -234,7 +231,6 @@ body {
         flex-direction: column;
         gap: 30px;
         margin-top: 30px;
-        padding: 20px;
 
     }
     main .sessao-01 .container-left {
